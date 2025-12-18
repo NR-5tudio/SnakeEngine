@@ -1,0 +1,61 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+    background-color: #0b0b0e;
+    color: #a6a6a6;
+}
+
+h1, a {
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    color: #00ff0d;
+    font-size: 3rem;
+    text-shadow: 0 0 8px #00ff0d99;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #37ff00;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #37ff00;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 12px #37ff0040;
+    margin: 0 auto 30px auto;
+    width: fit-content;
+}
+
+a:hover,
+
+a:focus {
+    background-color: #37ff00;
+    color: #0b0b0e;
+    box-shadow: 0 0 20px #37ff00;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #37ff00; /* neon green line */
+    width: 100%;
+    margin: 30px auto; /* spacing + centering */
+    box-shadow: 0 0 8px #37ff0044; /* subtle glow */
+}
+.status-update {
+    color: #fff200; /* bright yellow */
+    font-weight: 600;
+    font-size: 1.25rem;
+    max-width: 600px;
+    /* Left aligned by default */
+    text-shadow: 0 0 6px #fff200bb;
+}
