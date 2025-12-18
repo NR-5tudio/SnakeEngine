@@ -1,2 +1,2 @@
 # SnakeEngine
-This is snake-engine content
+This is snake-engine source code/content
