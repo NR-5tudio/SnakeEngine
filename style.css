@@ -68,3 +68,30 @@ hr {
     /* Left aligned by default */
     text-shadow: 0 0 6px #fff200bb;
 }
+
+.card {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    color: #51ff00;
+    font-size: 3rem;
+    text-shadow: 0 0 8px #51ff00ff;
+    margin-bottom: 20px;
+}
+
+.border-box {
+    flex: 1;
+    border: 3px solid #1aff00; /* black border */
+    padding: 50px;
+    display: inline-block; /* shrink to content */
+    border-radius: 50px; /* optional rounded corners */
+    background-color: #000000;
+}  
+.container {
+    display: flex;
+    width: 5%vw;          /* full screen width */
+    gap: 50px; /* space between each card */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
